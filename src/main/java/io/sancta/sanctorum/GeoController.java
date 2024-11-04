@@ -20,6 +20,10 @@ public class GeoController {
         countryDAO = new CountryDAO(sessionFactory);
     }
 
+    public void run() {
+
+    }
+
     private SessionFactory prepareRelationalDB() {
         return new Configuration().configure().buildSessionFactory();
     }
