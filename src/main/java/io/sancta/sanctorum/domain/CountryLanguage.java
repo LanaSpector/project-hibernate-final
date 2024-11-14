@@ -1,13 +1,11 @@
 package io.sancta.sanctorum.domain;
 
-import com.fasterxml.jackson.annotation.JsonSubTypes;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.FieldDefaults;
 import org.hibernate.annotations.Type;
-import org.hibernate.type.NumericBooleanType;
 
 import java.math.BigDecimal;
 
